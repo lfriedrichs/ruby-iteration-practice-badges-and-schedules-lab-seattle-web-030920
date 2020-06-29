@@ -9,7 +9,7 @@ def batch_badge_creator(names)
   output
 end
 
-def assign_rooms(name) 
+def assign_rooms(names) 
     output = []
     counter = 1
   names.each {|name| 
