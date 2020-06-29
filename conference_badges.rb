@@ -5,7 +5,8 @@ end
 
 def batch_badge_creator(names) 
   output = []
-  names.each {|name| output << "Hello, my name is #{name}."}
+  names.each {|name| output << badge_maker(name)}
+  output
 end
 
 def assign_rooms(name) 
