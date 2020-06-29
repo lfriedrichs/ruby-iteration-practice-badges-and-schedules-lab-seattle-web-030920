@@ -10,7 +10,13 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(name) 
-  "Hello, my name is #{name}."
+    output = []
+    counter = 1
+  names.each {|name| 
+    output << "Hello, #{name}! You'll be assigned to room #{counter}!"
+    counter += 1
+  }
+  output
 end
 
 def printer 
