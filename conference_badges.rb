@@ -24,5 +24,4 @@ def printer(names)
     puts badge }
      assign_rooms(names).each {|room| 
     puts room }
-  puts 
 end
